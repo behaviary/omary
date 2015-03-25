@@ -76,9 +76,9 @@ Template.hero.rendered = function() {
   // getting reassigned.
 
   $(window).scroll(function() {
-    var navbar = $('.navbar');
-    var origOffsetY = navbar.offset().top;
-    console.log("navbar don't exist: ",navbar,origOffsetY)
+  var navbar = $('.navbar');
+  var origOffsetY = navbar.offset().top;
+  console.log("navbar don't exist: ",navbar,origOffsetY)
 
 
     function scroll() {
